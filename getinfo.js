@@ -55,6 +55,7 @@ var language = client.getLanguage();
 
 params = {
 	url: window.location.href,
+	referer: document.referrer,
 	userAgent: userAgent,
 	OS: OS,
 	screenPrint: screenPrint,
